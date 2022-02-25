@@ -24,6 +24,7 @@ function LIB:CreateWindow(ScriptName)
 	CocoaLib.Name = "CocoaLib"
 	CocoaLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	CocoaLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	CocoaLib.ResetOnSpawn = false
 
 	TopHold.Name = "TopHold"
 	TopHold.Parent = CocoaLib
