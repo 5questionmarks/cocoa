@@ -13,10 +13,10 @@ function LIB:CreateWindow(ScriptName)
 	
 	uis.InputBegan:Connect(function(key)
 		if key.KeyCode == Enum.KeyCode.RightControl then
-			if TopHold.Visible == true then
-				Tophold.Visible = false
-			else
-				TopHold.Visible = true
+			if CocoaLib.Enabled == true then
+				CocoaLib.Enabled = false
+					else
+				CocoaLib.Enable = true
 			end
 		end
 	end)
