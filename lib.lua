@@ -54,7 +54,7 @@ function LIB:CreateWindow(ScriptName)
 	Content.Position = UDim2.new(0, 0, 1.00000024, 0)
 	Content.Size = UDim2.new(0, 305, 0, 231)
 
-	ExitGui.Name = "ExitGui"
+	ExitGui.Name = "ExitGui" 
 	ExitGui.Parent = TopHold
 	ExitGui.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
 	ExitGui.BackgroundTransparency = 1.000
