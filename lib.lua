@@ -16,7 +16,7 @@ function LIB:CreateWindow(ScriptName)
 			if CocoaLib.Enabled == true then
 				CocoaLib.Enabled = false
 					else
-				CocoaLib.Enable = true
+				CocoaLib.Enabled = true
 			end
 		end
 	end)
