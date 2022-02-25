@@ -1,5 +1,6 @@
 local LIB = {}
 function LIB:CreateWindow(ScriptName)
+	print('cocoa lib loaded!')
 	local CocoaLib = Instance.new("ScreenGui")
 	local TopHold = Instance.new("Frame")
 	local Name = Instance.new("TextLabel")
