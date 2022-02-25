@@ -9,6 +9,17 @@ function LIB:CreateWindow(ScriptName)
 	local ExitImg = Instance.new("ImageLabel")
 	local TabPages = Instance.new("Frame")
 	local UIListLayout_2 = Instance.new("UIListLayout")
+	local uis = game:GetService("UserInputService")
+	
+	uis.InputBegan:Connect(function(key)
+		if key.KeyCode == Enum.KeyCode.RightControl then
+			if TopHold.Visible == true then
+				Tophold.Visible = false
+			else
+				TopHold.Visible = true
+			end
+		end
+	end)
 	
 	CocoaLib.Name = "CocoaLib"
 	CocoaLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
