@@ -164,7 +164,7 @@ function LIB:CreateWindow(ScriptName)
 		Page.ScrollBarThickness = 10
 		Page.TopImage = "rbxassetid://8885587362"
 		Page.VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-		Page.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+		Page.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
 		
 		local BlankPage = Instance.new("ImageButton")
 		local PageName = Instance.new("TextLabel")
